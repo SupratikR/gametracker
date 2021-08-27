@@ -1,0 +1,25 @@
+{
+  "name": "gametracker",
+  "version": "1.0.0",
+  "description": "A simple server to show player status based on game, player nickname and platform",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "set DEBUG=GameTracker:* & node app.js",
+    "dev:windows": "set DEBUG=GameTracker:* & nodemon app.js"
+  },
+  "author": "Supratik Roy",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "express-response-formatter": "^2.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
